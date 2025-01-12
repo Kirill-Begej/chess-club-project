@@ -1,0 +1,5 @@
+.intro__desc {
+  line-height: var(--line-height-l);
+  margin: 0 0 37px;
+  text-align: center;
+}

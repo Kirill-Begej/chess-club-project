@@ -1,0 +1,25 @@
+:root {
+  --primary-font-regular: 'MerriweatherRegular', 'Times New Roman', serif;
+  --primary-font-bold: 'MerriweatherBold', 'Times New Roman', serif;
+  --secondary-font-regular: 'GolosTextRegular', Arial, sans-serif;
+  --secondary-font-medium: 'GolosTextMedium', 'Arial', sans-serif;
+  --secondary-font-semibold: 'GolosTextSemibold', 'Arial', sans-serif;
+  --secondary-font-bold: 'GolosTextBold', 'Arial', sans-serif;  
+  --primary-font-size-s: 22px;
+  --primary-font-size-m: 36px;
+  --primary-font-size-l: 54px;
+  --primary-font-size-xl: 60px;
+  --secondary-font-size-s: 16px;
+  --secondary-font-size-m: 18px;
+  --secondary-font-size-l: 20px;
+  --secondary-font-size-xl: 24px;
+  --line-height-s: 1.1;
+  --line-height-m: 1.2;
+  --line-height-l: 1.3;
+  --primary-color: #313131;
+  --bg-color: #E9DED4;
+  --logo-color: #595653;
+  --hover-color: #FBCE51;
+  --primary-button-color: #1F1F1F;
+  --secondary-button-color: #FFF;
+}

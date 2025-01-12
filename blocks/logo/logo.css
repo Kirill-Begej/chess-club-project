@@ -1,0 +1,7 @@
+.logo {
+  display: inline-block;
+}
+
+.logo:hover .logo__image {
+  fill: var(--hover-color);
+}

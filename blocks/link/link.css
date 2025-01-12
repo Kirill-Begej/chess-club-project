@@ -1,0 +1,12 @@
+.link {
+  border-radius: 66px;
+  box-sizing: border-box;
+  font: var(--secondary-font-size-s) var(--secondary-font-medium);
+  line-height: var(--line-height-l);
+  padding: 16px 46px;
+  transition: background .3s ease-out,
+              color .3s ease-out;
+  text-align: center;
+  text-decoration: none;
+  width: 50%;
+}

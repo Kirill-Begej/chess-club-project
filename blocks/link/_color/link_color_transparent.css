@@ -1,0 +1,9 @@
+.link_color_transparent {
+  box-shadow: 0px 0px 0px 2px var(--primary-button-color) inset;
+  color: var(--primary-button-color);
+}
+
+.link_color_transparent:hover {
+  background: var(--primary-button-color);
+  color: var(--secondary-button-color);
+}

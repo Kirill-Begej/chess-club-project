@@ -1,0 +1,5 @@
+.title_type_intro {
+  font-size: var(--primary-font-size-xl);
+  line-height: var(--line-height-s);
+  margin-bottom: 22px;
+}

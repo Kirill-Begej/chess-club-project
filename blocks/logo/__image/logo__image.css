@@ -1,0 +1,7 @@
+.logo__image {
+  display: block;
+  fill: var(--logo-color);
+  height: 36px;
+  transition: fill .3s ease-out;
+  width: 246px;
+}
