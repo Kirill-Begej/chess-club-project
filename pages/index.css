@@ -11,6 +11,9 @@
 @import url('../blocks/intro/__content/intro__content.css');
 @import url('../blocks/intro/__desc/intro__desc.css');
 @import url('../blocks/intro/__links/intro__links.css');
+@import url('../blocks/marquee/marquee.css');
+@import url('../blocks/marquee/__list/marquee__list.css');
+@import url('../blocks/marquee/__item/marquee__item.css');
 
 
 

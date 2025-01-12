@@ -1,5 +1,5 @@
 .intro {
-  background-color: var(--bg-color);
+  background-color: var(--primary-bg-color);
   background-image: image-set(
     url('/images/intro/intro-bg@2x.webp') type("image/webp") 2x,
     url('/images/intro/intro-bg@1x.webp') type("image/webp") 1x,

@@ -1,0 +1,8 @@
+.marquee {
+  background: var(--secondary-bg-color);
+  color: var(--secondary-button-color);
+  font: var(--primary-font-size-s) var(--primary-font-regular);
+  line-height: var(--line-height-s);
+  overflow: hidden;
+  padding: 19px 0 17px;
+}
