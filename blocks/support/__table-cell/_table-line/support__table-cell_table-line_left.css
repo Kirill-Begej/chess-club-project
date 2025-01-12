@@ -1,7 +1,5 @@
 @media screen and (max-width: 767px) {
   .support__table-cell_table-line_left {
     grid-column: 1 / 2;
-    padding-bottom: 15px;
-    padding-top: 15px;
   }
 }

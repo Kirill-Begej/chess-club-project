@@ -8,8 +8,11 @@
 
 @media screen and (max-width: 768px) {
   .support__table {
+    align-self: center;
     display: grid;
-    margin-bottom: 41px;
     grid-template-columns: 46% 54%;
+    margin-bottom: 41px;
+    max-width: 336px;
+    width: 100%;
   }
 }

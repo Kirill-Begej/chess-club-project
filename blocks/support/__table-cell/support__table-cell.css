@@ -36,19 +36,23 @@
   }
 
   .support__table-cell:nth-child(odd) {
-    border-bottom: none;
     border-right: none;
-    flex: 0 1 100%;
     padding-bottom: 13px;
+  }
+
+  .support__table-cell:nth-child(odd):not(.support__table-cell_table-line_left) {
+    border-bottom: none;
   }
 
   .support__table-cell:nth-child(even) {
     border-left: none;
     border-right: none;
-    border-top: none;
-    flex: 0 1 100%;
     padding-bottom: 14px;
     padding-left: 0;
+  }
+
+  .support__table-cell:nth-child(even):not(.support__table-cell_table-line_right) {
+    border-top: none;
   }
 
   .support__table-cell:not(:nth-child(-n+2)):not(:nth-last-child(-n+2)):not(.support__table-cell_table-line_left):not(.support__table-cell_table-line_right):nth-child(odd) {
