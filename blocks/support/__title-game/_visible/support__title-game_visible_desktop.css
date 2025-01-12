@@ -1,0 +1,5 @@
+@media screen and (max-width: 767px) {
+  .support__title-game_visible_desktop {
+    display: none;
+  }
+}

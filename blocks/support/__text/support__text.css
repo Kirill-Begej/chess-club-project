@@ -1,3 +1,9 @@
 .support__text {
   flex: 0 1 57.61%;
 }
+
+@media screen and (max-width: 767px) {
+  .support__text {
+    flex-basis: 100%;
+  }
+}

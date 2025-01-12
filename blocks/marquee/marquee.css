@@ -1,7 +1,7 @@
 .marquee {
   background: var(--marquee-bg-color);
   color: var(--secondary-button-color);
-  font: var(--primary-font-size-s) var(--primary-font-regular);
+  font: var(--primary-font-size-xs) var(--primary-font-regular);
   line-height: var(--line-height-s);
   overflow: hidden;
   padding: 19px 0 17px;
@@ -9,7 +9,7 @@
 
 @media screen and (max-width: 767px) {
   .marquee {
-    font-size: var(--primary-font-size-xs);
+    font-size: var(--primary-font-size-xxs);
     padding: 11px 0 9px;
   }
 }

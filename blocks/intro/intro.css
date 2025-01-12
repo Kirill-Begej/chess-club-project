@@ -19,10 +19,11 @@
 @media screen and (max-width: 767px) {
   .intro {
     background-image: image-set(
-    url('/images/intro/intro-bg-mobile@2x.webp') type("image/webp") 2x,
-    url('/images/intro/intro-bg-mobile@1x.webp') type("image/webp") 1x,
-    url('/images/intro/intro-bg-mobile@2x.jpg') 2x,
-    url('/images/intro/intro-bg-mobile@1x.jpg') 1x
-  );
+      url('/images/intro/intro-bg-mobile@2x.webp') type("image/webp") 2x,
+      url('/images/intro/intro-bg-mobile@1x.webp') type("image/webp") 1x,
+      url('/images/intro/intro-bg-mobile@2x.jpg') 2x,
+      url('/images/intro/intro-bg-mobile@1x.jpg') 1x
+    );
+    background-position: bottom;
   }
 }

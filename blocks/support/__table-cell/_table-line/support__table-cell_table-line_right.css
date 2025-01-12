@@ -1,0 +1,6 @@
+@media screen and (max-width: 767px) {
+  .support__table-cell_table-line_right {
+    grid-column: 2 / 3;
+    padding: 15px 0;
+  }
+}

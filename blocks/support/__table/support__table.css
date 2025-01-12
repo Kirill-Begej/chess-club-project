@@ -5,3 +5,11 @@
   margin: 0 0 48px;
   padding: 0;
 }
+
+@media screen and (max-width: 768px) {
+  .support__table {
+    display: grid;
+    margin-bottom: 41px;
+    grid-template-columns: 46% 54%;
+  }
+}

@@ -2,3 +2,9 @@
   font-size: var(--primary-font-size-m);
   line-height: var(--line-height-xl);
 }
+
+@media screen and (max-width: 767px) {
+  .title_type_support {
+    font-size: var(--primary-font-size-s);
+  }
+}

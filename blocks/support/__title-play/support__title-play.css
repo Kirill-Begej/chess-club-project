@@ -2,3 +2,9 @@
   margin-bottom: 60px;
   max-width: 685px;
 }
+
+@media screen and (max-width: 767px) {
+  .support__title-play {
+    margin-bottom: 40px;
+  }
+}

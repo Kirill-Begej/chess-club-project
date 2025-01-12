@@ -2,3 +2,9 @@
   color: var(--secondary-color);
   text-decoration: none;
 }
+
+@media screen and (max-width: 768px) {
+  .support__desc {
+    font-size: var(--secondary-font-size-m);
+  }
+}

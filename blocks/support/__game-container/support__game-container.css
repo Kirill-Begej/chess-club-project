@@ -5,3 +5,9 @@
   top: -29px;
   width: 100%;
 }
+
+@media screen and (max-width: 767px) {
+  .support__game-container {
+    top: auto;
+  }
+}
