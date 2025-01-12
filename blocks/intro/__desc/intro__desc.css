@@ -3,3 +3,12 @@
   margin: 0 0 37px;
   text-align: center;
 }
+
+@media screen and (max-width: 767px) {
+  .intro__desc {
+    align-self: center;
+    margin-bottom: 30px;
+    text-align: left;
+    max-width: 335px;
+  }
+}

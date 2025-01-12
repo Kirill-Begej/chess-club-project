@@ -10,3 +10,10 @@
   text-decoration: none;
   width: 50%;
 }
+
+@media screen and (max-width: 767px) {
+  .link  {
+    padding: 13px 0;
+    width: 100%;
+  }
+}

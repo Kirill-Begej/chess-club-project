@@ -1,10 +1,10 @@
 .intro {
   background-color: var(--primary-bg-color);
   background-image: image-set(
-    url('/images/intro/intro-bg@2x.webp') type("image/webp") 2x,
-    url('/images/intro/intro-bg@1x.webp') type("image/webp") 1x,
-    url('/images/intro/intro-bg@2x.jpg') 2x,
-    url('/images/intro/intro-bg@1x.jpg') 1x
+    url('/images/intro/intro-bg-desktop@2x.webp') type("image/webp") 2x,
+    url('/images/intro/intro-bg-desktop@1x.webp') type("image/webp") 1x,
+    url('/images/intro/intro-bg-desktop@2x.jpg') 2x,
+    url('/images/intro/intro-bg-desktop@1x.jpg') 1x
   );
   background-position: center;
   background-repeat: no-repeat;
@@ -14,4 +14,15 @@
   font: var(--secondary-font-size-m) var(--secondary-font-regular);
   justify-content: center;
   width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .intro {
+    background-image: image-set(
+    url('/images/intro/intro-bg-mobile@2x.webp') type("image/webp") 2x,
+    url('/images/intro/intro-bg-mobile@1x.webp') type("image/webp") 1x,
+    url('/images/intro/intro-bg-mobile@2x.jpg') 2x,
+    url('/images/intro/intro-bg-mobile@1x.jpg') 1x
+  );
+  }
 }

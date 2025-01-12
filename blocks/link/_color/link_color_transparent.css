@@ -7,3 +7,10 @@
   background: var(--primary-button-color);
   color: var(--secondary-button-color);
 }
+
+@media screen and (max-width: 1365px) {
+  .link_color_transparent {
+    box-shadow: none;
+    background: rgba(255, 255, 255, .9);
+  }
+}

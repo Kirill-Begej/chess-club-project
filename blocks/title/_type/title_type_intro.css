@@ -3,3 +3,11 @@
   line-height: var(--line-height-s);
   margin-bottom: 22px;
 }
+
+@media screen and (max-width: 767px) {
+  .title_type_intro {
+    align-self: center;
+    font-size: var(--primary-font-size-m);
+    max-width: 335px;
+  }
+}

@@ -5,3 +5,10 @@
   transition: fill .3s ease-out;
   width: 246px;
 }
+
+@media screen and (max-width: 767px) {
+  .logo__image {
+    height: 32px;
+    width: 213px;
+  }
+}
