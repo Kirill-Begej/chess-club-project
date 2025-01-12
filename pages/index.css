@@ -4,23 +4,43 @@
 @import url('../blocks/logo/logo.css');
 @import url('../blocks/logo/__image/logo__image.css');
 @import url('../blocks/title/title.css');
-@import url('../blocks/link/link.css');
+@import url('../blocks/link-button/link-button.css');
+@import url('../blocks/marquee/marquee.css');
+@import url('../blocks/marquee/__list/marquee__list.css');
+@import url('../blocks/marquee/__item/marquee__item.css');
 @import url('../blocks/intro/intro.css');
 @import url('../blocks/intro/__container/intro__container.css');
 @import url('../blocks/intro/__header/intro__header.css');
 @import url('../blocks/intro/__content/intro__content.css');
+@import url('../blocks/intro/__title/intro__title.css');
 @import url('../blocks/intro/__desc/intro__desc.css');
 @import url('../blocks/intro/__links/intro__links.css');
-@import url('../blocks/marquee/marquee.css');
-@import url('../blocks/marquee/__list/marquee__list.css');
-@import url('../blocks/marquee/__item/marquee__item.css');
+@import url('../blocks/content/content.css');
+@import url('../blocks/content/__container/content__container.css');
+@import url('../blocks/support/support.css');
+@import url('../blocks/support/__row/support__row.css');
+@import url('../blocks/support/__title-game/support__title-game.css');
+@import url('../blocks/support/__game/support__game.css');
+@import url('../blocks/support/__game-container/support__game-container.css');
+@import url('../blocks/support/__game-image/support__game-image.css');
+@import url('../blocks/support/__play/support__play.css');
+@import url('../blocks/support/__play-container/support__play-container.css');
+@import url('../blocks/support/__play-image/support__play-image.css');
+@import url('../blocks/support/__text/support__text.css');
+@import url('../blocks/support/__title-play/support__title-play.css');
+@import url('../blocks/support/__table/support__table.css');
+@import url('../blocks/support/__table-cell/support__table-cell.css');
+@import url('../blocks/support/__desc/support__desc.css');
 
 
 
 
 
 @import url('../blocks/title/_type/title_type_intro.css');
+@import url('../blocks/title/_type/title_type_support.css');
 @import url('../blocks/title/_row-position/title_row-position_center.css');
 @import url('../blocks/title/_row-position/title_row-position_right.css');
-@import url('../blocks/link/_color/link_color_black.css');
-@import url('../blocks/link/_color/link_color_transparent.css');
+@import url('../blocks/title/_color/title_color_red.css');
+@import url('../blocks/link-button/_color/link-button_color_black.css');
+@import url('../blocks/link-button/_color/link-button_color_transparent.css');
+@import url('../blocks/support/__table-cell/_crossed-out/support__table-cell_crossed-out.css');

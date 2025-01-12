@@ -1,0 +1,4 @@
+.title_color_red {
+  color: var(--title-color-red);
+  font-family: var(--primary-font-bold);
+}

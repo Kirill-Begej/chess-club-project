@@ -1,9 +1,9 @@
-.link_color_black {
+.link-button_color_black {
   background: var(--primary-button-color);
   color: var(--secondary-button-color);
 }
 
-.link_color_black:hover {
+.link-button_color_black:hover {
   background: var(--hover-color);
   color: var(--primary-button-color);
 }

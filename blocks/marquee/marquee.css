@@ -1,5 +1,5 @@
 .marquee {
-  background: var(--secondary-bg-color);
+  background: var(--marquee-bg-color);
   color: var(--secondary-button-color);
   font: var(--primary-font-size-s) var(--primary-font-regular);
   line-height: var(--line-height-s);

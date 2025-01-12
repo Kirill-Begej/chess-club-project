@@ -1,4 +1,4 @@
-.link {
+.link-button {
   border-radius: 66px;
   box-sizing: border-box;
   font: var(--secondary-font-size-s) var(--secondary-font-medium);
@@ -12,7 +12,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .link  {
+  .link-button  {
     padding: 13px 0;
     width: 100%;
   }

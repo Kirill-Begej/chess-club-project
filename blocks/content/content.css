@@ -1,0 +1,7 @@
+.content {
+  align-items: center;
+  background: var(--secondary-bg-color);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}

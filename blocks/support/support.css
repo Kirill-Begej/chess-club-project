@@ -1,0 +1,9 @@
+.support {
+  color: var(--primary-color);
+  display: flex;
+  flex-direction: column;
+  font: var(--secondary-font-size-l) var(--secondary-font-regular);
+  gap: 37px;
+  margin-bottom: 100px;
+  padding-top: 108px;
+}

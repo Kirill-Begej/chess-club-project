@@ -4,7 +4,8 @@
   --secondary-font-regular: 'GolosTextRegular', Arial, sans-serif;
   --secondary-font-medium: 'GolosTextMedium', 'Arial', sans-serif;
   --secondary-font-semibold: 'GolosTextSemibold', 'Arial', sans-serif;
-  --secondary-font-bold: 'GolosTextBold', 'Arial', sans-serif;  
+  --secondary-font-bold: 'GolosTextBold', 'Arial', sans-serif;
+
   --primary-font-size-xs: 16px;
   --primary-font-size-s: 22px;
   --primary-font-size-m: 36px;
@@ -14,14 +15,21 @@
   --secondary-font-size-m: 18px;
   --secondary-font-size-l: 20px;
   --secondary-font-size-xl: 24px;
+
   --line-height-s: 1.1;
   --line-height-m: 1.2;
   --line-height-l: 1.3;
+  --line-height-xl: 1.35;
+
   --primary-color: #313131;
+  --secondary-color: #3057A2;
   --primary-bg-color: #E9DED4;
-  --secondary-bg-color: #F54932;
+  --secondary-bg-color: #FFF;
+  --title-color-red: #F54932;
+  --marquee-bg-color: #F54932;
   --logo-color: #595653;
   --hover-color: #FBCE51;
   --primary-button-color: #1F1F1F;
   --secondary-button-color: #FFF;
+  --table-border-color: #D0D0D0;
 }

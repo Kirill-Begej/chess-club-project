@@ -1,15 +1,15 @@
-.link_color_transparent {
+.link-button_color_transparent {
   box-shadow: 0px 0px 0px 2px var(--primary-button-color) inset;
   color: var(--primary-button-color);
 }
 
-.link_color_transparent:hover {
+.link-button_color_transparent:hover {
   background: var(--primary-button-color);
   color: var(--secondary-button-color);
 }
 
 @media screen and (max-width: 1365px) {
-  .link_color_transparent {
+  .link-button_color_transparent {
     box-shadow: none;
     background: rgba(255, 255, 255, .9);
   }
