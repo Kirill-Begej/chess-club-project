@@ -1,0 +1,10 @@
+.stages__list {
+  counter-reset: myCounter;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}

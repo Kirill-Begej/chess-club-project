@@ -1,0 +1,7 @@
+.stages {
+  color: var(--primary-color);
+  font: var(--secondary-font-size-l) var(--secondary-font-medium);
+  line-height: 1.2;
+  margin-bottom: 100px;
+  padding-top: 102px;
+}

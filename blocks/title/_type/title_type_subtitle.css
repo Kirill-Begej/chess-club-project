@@ -1,0 +1,9 @@
+.title_type_subtitle {
+  color: var(--secondary-color);
+  display: inline-block;
+  font: var(--secondary-font-size-l) var(--secondary-font-regular);
+  left: 6px;
+  max-width: 280px;
+  position: relative;
+  text-transform: none;
+}

@@ -8,6 +8,11 @@
 @import url('../blocks/marquee/marquee.css');
 @import url('../blocks/marquee/__list/marquee__list.css');
 @import url('../blocks/marquee/__item/marquee__item.css');
+@import url('../blocks/pagination/pagination.css');
+@import url('../blocks/button/button.css');
+@import url('../blocks/button/__image/button__image.css');
+@import url('../blocks/pagination/__list/pagination__list.css');
+@import url('../blocks/pagination/__item/pagination__item.css');
 @import url('../blocks/intro/intro.css');
 @import url('../blocks/intro/__container/intro__container.css');
 @import url('../blocks/intro/__header/intro__header.css');
@@ -32,6 +37,12 @@
 @import url('../blocks/support/__table/support__table.css');
 @import url('../blocks/support/__table-cell/support__table-cell.css');
 @import url('../blocks/support/__desc/support__desc.css');
+@import url('../blocks/stages/stages.css');
+@import url('../blocks/stages/__title/stages__title.css');
+@import url('../blocks/stages/__content/stages__content.css');
+@import url('../blocks/stages/__list/stages__list.css');
+@import url('../blocks/stages/__item/stages__item.css');
+@import url('../blocks/stages/__image/stages__image.css');
 
 
 
@@ -39,6 +50,8 @@
 
 @import url('../blocks/title/_type/title_type_intro.css');
 @import url('../blocks/title/_type/title_type_support.css');
+@import url('../blocks/title/_type/title_type_stages.css');
+@import url('../blocks/title/_type/title_type_subtitle.css');
 @import url('../blocks/title/_row-position/title_row-position_center.css');
 @import url('../blocks/title/_row-position/title_row-position_right.css');
 @import url('../blocks/title/_color/title_color_red.css');
@@ -49,3 +62,8 @@
 @import url('../blocks/support/__table-cell/_crossed-out/support__table-cell_crossed-out.css');
 @import url('../blocks/support/__table-cell/_table-line/support__table-cell_table-line_left.css');
 @import url('../blocks/support/__table-cell/_table-line/support__table-cell_table-line_right.css');
+@import url('../blocks/stages/__item/_size/stage__item_size_big-column.css');
+@import url('../blocks/stages/__item/_size/stage__item_size_big-row.css');
+@import url('../blocks/button/_type/button_type_right.css');
+@import url('../blocks/button/_not-active/button_not-active.css');
+@import url('../blocks/pagination/__item/_active/pagination__item_active.css');

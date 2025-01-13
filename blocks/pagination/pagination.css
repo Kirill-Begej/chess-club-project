@@ -1,0 +1,11 @@
+.pagination {
+  align-items: center;
+  display: none;
+  gap: 16px;
+}
+
+@media screen and (max-width: 767px) {
+  .pagination {
+    display: flex;
+  }
+}

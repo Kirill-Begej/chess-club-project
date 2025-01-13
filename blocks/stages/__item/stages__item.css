@@ -1,0 +1,37 @@
+.stages__item {
+  background-image: image-set(
+    url('../../../images/stages/stages-bg@1x.webp') type('image/webp') 1x,
+    url('../../../images/stages/stages-bg@2x.webp') type('image/webp') 2x,
+    url('../../../images/stages/stages-bg@1x.png') type('image/png') 1x,
+    url('../../../images/stages/stages-bg@2x.png') type('image/png') 2x
+  );
+  background-position: center center;
+  box-sizing: border-box;
+  font-size: calc(1vw + 6.4px);
+  padding: 5% 5% 5% 18.4%;
+  position: relative;
+}
+
+.stages__item:last-child {
+  padding: 2.6% 40% 2% 9%;
+}
+
+.stages__item::before {
+  align-items: center;
+  background-color: var(--secondary-bg-color);
+  border-radius: 50%;
+  content: counter(myCounter);
+  counter-increment: myCounter;
+  display: flex;
+  font: calc(1vw + 5px) var(--secondary-font-semibold);
+  height: 2.72vw;
+  justify-content: center;
+  left: 5%;
+  position: absolute;
+  top: 19px;
+  width: 2.72vw;
+}
+
+.stages__item:last-child::before {
+  left: 2.4%;
+}

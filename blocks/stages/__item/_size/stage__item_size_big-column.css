@@ -1,0 +1,4 @@
+.stage__item_size_big-column {
+  grid-column: 3 / 4;
+  grid-row: 1 / 3;
+}
