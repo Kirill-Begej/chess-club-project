@@ -5,3 +5,20 @@
   right: -5%;
   width: 32.8%;
 }
+
+@media screen and (max-width: 767px) {
+  .stages__image {
+    bottom: 79%;
+    left: 20%;
+    max-width: 400px;
+    right: auto;
+    transform: rotate(-4deg);
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .stages__image {
+    left: 4%;
+  }
+}

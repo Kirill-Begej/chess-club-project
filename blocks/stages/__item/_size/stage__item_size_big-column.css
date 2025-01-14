@@ -2,3 +2,10 @@
   grid-column: 3 / 4;
   grid-row: 1 / 3;
 }
+
+@media screen and (max-width: 767px) {
+  .stage__item_size_big-column {
+    grid-column: auto;
+    grid-row: auto;
+  }
+}

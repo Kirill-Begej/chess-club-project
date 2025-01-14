@@ -2,3 +2,12 @@
   margin-bottom: 51px;
   max-width: 806px;
 }
+
+@media screen and (max-width: 767px) {
+  .stages__title {
+    display: flex;
+    flex-direction: column;
+    line-height: var(--line-height-s);
+    margin-bottom: 149px;
+  }
+}

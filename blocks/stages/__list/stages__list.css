@@ -8,3 +8,10 @@
   padding: 0;
   width: 100%;
 }
+
+@media screen and (max-width: 767px) {
+  .stages__list {
+    gap: 0;
+    grid-template-columns: repeat(5, 100%);
+  }
+}

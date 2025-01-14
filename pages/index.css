@@ -40,6 +40,7 @@
 @import url('../blocks/stages/stages.css');
 @import url('../blocks/stages/__title/stages__title.css');
 @import url('../blocks/stages/__content/stages__content.css');
+@import url('../blocks/stages/__container/stage__container.css');
 @import url('../blocks/stages/__list/stages__list.css');
 @import url('../blocks/stages/__item/stages__item.css');
 @import url('../blocks/stages/__image/stages__image.css');
@@ -64,6 +65,12 @@
 @import url('../blocks/support/__table-cell/_table-line/support__table-cell_table-line_right.css');
 @import url('../blocks/stages/__item/_size/stage__item_size_big-column.css');
 @import url('../blocks/stages/__item/_size/stage__item_size_big-row.css');
+@import url('../blocks/stages/__item/_size/stage__item_size_small-column-first.css');
+@import url('../blocks/stages/__item/_size/stage__item_size_small-column-third.css');
+@import url('../blocks/stages/__item/_size/stage__item_size_small-column.css');
+@import url('../blocks/stages/__item/_amount-blocks/stage__item_amount-blocks_first.css');
+@import url('../blocks/stages/__item/_amount-blocks/stage__item_amount-blocks_second.css');
+@import url('../blocks/stages/__item/_amount-blocks/stage__item_amount-blocks_only-one.css');
 @import url('../blocks/button/_type/button_type_right.css');
 @import url('../blocks/button/_not-active/button_not-active.css');
 @import url('../blocks/pagination/__item/_active/pagination__item_active.css');

@@ -1,0 +1,6 @@
+@media screen and (max-width: 767px) {
+  .stage__item_size_small-column-third {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+  }
+}

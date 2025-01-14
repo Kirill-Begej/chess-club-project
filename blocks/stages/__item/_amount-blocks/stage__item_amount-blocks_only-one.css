@@ -1,0 +1,19 @@
+@media screen and (max-width: 767px) {
+  .stage__item_amount-blocks_only-one {
+    padding: 10% 4% 4.5% 21.5%;
+  }
+
+  .stage__item_amount-blocks_only-one:last-child {
+    padding: 10% 4% 4.5% 21.5%;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .stage__item_amount-blocks_only-one {
+    padding: 18.8% 4% 4.5% 21.5%;
+  }
+
+  .stage__item_amount-blocks_only-one:last-child {
+    padding: 18.8% 4% 4.5% 21.5%;
+  }
+}

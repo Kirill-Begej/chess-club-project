@@ -1,7 +1,14 @@
 .stages {
   color: var(--primary-color);
   font: var(--secondary-font-size-l) var(--secondary-font-medium);
-  line-height: 1.2;
+  line-height: var(--line-height-m);
   margin-bottom: 100px;
   padding-top: 102px;
+}
+
+@media screen and (max-width: 767px) {
+  .stages {
+    margin-bottom: 60px;
+    padding-top: 63px;
+  }
 }

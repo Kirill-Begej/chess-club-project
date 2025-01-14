@@ -1,0 +1,9 @@
+@media screen and (max-width: 767px) {
+  .stage__item_amount-blocks_second {
+    padding: 4.5% 4% 10% 21.5%;
+  }
+
+  .stage__item_amount-blocks_second::before {
+    top: 14px;
+  }
+}

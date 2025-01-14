@@ -35,3 +35,32 @@
 .stages__item:last-child::before {
   left: 2.4%;
 }
+
+@media screen and (max-width: 767px) {
+  .stages__item {
+    font-size: 18px;
+    width: auto;
+    height: auto;
+  }
+
+  .stages__item::before {
+    font-size: calc(1vw + 14px);
+    height: 6vw;
+    left: 6.5%;
+    top: 40px;
+    width: 6vw;
+  }
+
+  .stages__item:last-child::before {
+    left: 6.5%;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .stages__item::before {
+    font-size: calc(1vw + 15px);
+    height: 9vw;
+    top: 62px;
+    width: 9vw;
+  }
+}
