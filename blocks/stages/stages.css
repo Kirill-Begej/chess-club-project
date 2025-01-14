@@ -3,7 +3,7 @@
   font: var(--secondary-font-size-l) var(--secondary-font-medium);
   line-height: var(--line-height-m);
   margin-bottom: 100px;
-  padding-top: 102px;
+  padding-top: 90px;
 }
 
 @media screen and (max-width: 767px) {

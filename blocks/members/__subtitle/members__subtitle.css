@@ -1,0 +1,5 @@
+.members__subtitle {
+  font: var(--secondary-font-size-xl) var(--secondary-font-medium);
+  margin: 0 0 6px;
+  text-align: center;
+}

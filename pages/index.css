@@ -13,6 +13,10 @@
 @import url('../blocks/button/__image/button__image.css');
 @import url('../blocks/pagination/__list/pagination__list.css');
 @import url('../blocks/pagination/__item/pagination__item.css');
+@import url('../blocks/pagination-slider/pagination-slider.css');
+@import url('../blocks/pagination-slider/__button/pagination-slider__button.css');
+@import url('../blocks/pagination-slider/__numbers/pagination-slider__numbers.css');
+@import url('../blocks/pagination-slider/__slide-number/pagination-slider__slide-number.css');
 @import url('../blocks/intro/intro.css');
 @import url('../blocks/intro/__container/intro__container.css');
 @import url('../blocks/intro/__header/intro__header.css');
@@ -44,6 +48,15 @@
 @import url('../blocks/stages/__list/stages__list.css');
 @import url('../blocks/stages/__item/stages__item.css');
 @import url('../blocks/stages/__image/stages__image.css');
+@import url('../blocks/members/members.css');
+@import url('../blocks/members/__container/members__container.css');
+@import url('../blocks/members/__list/members__list.css');
+@import url('../blocks/members/__item/members__item.css');
+@import url('../blocks/members/__image/members__image.css');
+@import url('../blocks/members/__subtitle/members__subtitle.css');
+@import url('../blocks/members/__text/members__text.css');
+@import url('../blocks/members/__link/members__link.css');
+@import url('../blocks/members/__pagination/members__pagination.css');
 
 
 
@@ -51,7 +64,6 @@
 
 @import url('../blocks/title/_type/title_type_intro.css');
 @import url('../blocks/title/_type/title_type_support.css');
-@import url('../blocks/title/_type/title_type_stages.css');
 @import url('../blocks/title/_type/title_type_subtitle.css');
 @import url('../blocks/title/_row-position/title_row-position_center.css');
 @import url('../blocks/title/_row-position/title_row-position_right.css');

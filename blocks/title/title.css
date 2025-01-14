@@ -1,6 +1,14 @@
 .title {
   color: var(--primary-color);
   font: var(--primary-font-size-l) var(--primary-font-regular);
+  line-height: var(--line-height-m);
   margin: 0;
   text-transform: uppercase;
+}
+
+@media screen and (max-width: 767px) {
+  .title {
+    font-size:var(--primary-font-size-m);
+    line-height: var(--line-height-s);
+  }
 }
