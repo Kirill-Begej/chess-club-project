@@ -1,0 +1,16 @@
+.footer__container {
+  max-width: 1222px;
+  width: 100%;
+}
+
+@media screen and (max-width: 1365px) {
+  .footer__container {
+    width: 89.46%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__container {
+    width: 89.6%;
+  }
+}

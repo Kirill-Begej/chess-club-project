@@ -1,0 +1,9 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  font: var(--secondary-font-size-s) var(--secondary-font-regular);
+  line-height: var(--line-height-m);
+  color: rgba(49, 49, 49, .6);
+  background-color: var(--primary-bg-color);
+  padding: 40px 0 72px;
+}
