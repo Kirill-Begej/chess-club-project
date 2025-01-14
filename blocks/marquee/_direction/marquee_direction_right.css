@@ -1,0 +1,12 @@
+@keyframes directionFromLeftToRight {
+  from {
+    transform: translateX(-50%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+.marquee_direction_right .marquee__list {
+  animation: directionFromLeftToRight 20s linear infinite;
+}

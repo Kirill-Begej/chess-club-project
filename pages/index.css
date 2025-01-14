@@ -70,6 +70,8 @@
 @import url('../blocks/title/_color/title_color_red.css');
 @import url('../blocks/link-button/_color/link-button_color_black.css');
 @import url('../blocks/link-button/_color/link-button_color_transparent.css');
+@import url('../blocks/marquee/_direction/marquee_direction_left.css');
+@import url('../blocks/marquee/_direction/marquee_direction_right.css');
 @import url('../blocks/support/__title-game/_visible/support__title-game_visible_desktop.css');
 @import url('../blocks/support/__title-game/_visible/support__title-game_visible_mobile.css');
 @import url('../blocks/support/__table-cell/_crossed-out/support__table-cell_crossed-out.css');
