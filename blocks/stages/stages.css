@@ -1,4 +1,6 @@
 .stages {
+  --slides: 1;
+  --current: 1;
   color: var(--primary-color);
   font: var(--secondary-font-size-l) var(--secondary-font-medium);
   line-height: var(--line-height-m);

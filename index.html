@@ -10,6 +10,7 @@
   <meta name="author" content="Кирилл Бегей">
   <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="./pages/index.css">
+  <script type="module" src="./pages/index.js"></script>
   <title>Клуб четырех коней</title>
 </head>
 
@@ -87,7 +88,7 @@
         </div>
       </section>
 
-      <section class="stages" id="details">
+      <section class="stages" id="details" style="--slides: 5; --current: 1;">
         <h2 class="stages__title"><span class="title">Этапы преображения Васюков </span><span class="title title_type_subtitle">Будущие источники обогащения васюкинцев</span></h2>
         <div class="stages__content">
           <div class="stage__container">
@@ -104,7 +105,7 @@
           <img src="./images/stages/stages-image@1x.png" srcset="./images/stages/stages-image@2x.webp 2x, ./images/stages/stages-image@1x.webp 1x, ./images/stages/stages-image@2x.png 2x" alt="Биплан." class="stages__image">
         </div>
         <div class="pagination">
-          <button class="button" id="buttonStagesLeft" title="Пролистнуть влево." aria-label="Пролистнуть влево">
+          <button class="button" name="left" title="Пролистнуть влево." aria-label="Пролистнуть влево">
             <svg class="button__image">
               <use href="./images/pagination/pagination.svg#button"></use>
             </svg>
@@ -117,7 +118,7 @@
             <li class="pagination__item"></li>
             <li class="pagination__item"></li>
           </ul>
-          <button class="button button_type_right" id="buttonStagesRight" title="Пролистнуть вправо." aria-label="Пролистнуть ввправо">
+          <button class="button button_type_right" name="right" title="Пролистнуть вправо." aria-label="Пролистнуть ввправо">
             <svg class="button__image">
               <use href="./images/pagination/pagination.svg#button"></use>
             </svg>
@@ -125,7 +126,7 @@
         </div>
       </section>
 
-      <section class="members">
+      <!-- <section class="members">
         <h2 class="title members__title">Участники турнира</h2>
         <div class="members__container">
           <ul class="members__list">
@@ -192,7 +193,7 @@
             </button>
           </div>
         </div>
-      </section>
+      </section> -->
 
     </div>
   </main>

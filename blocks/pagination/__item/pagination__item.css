@@ -1,7 +1,6 @@
 .pagination__item {
   background-color: #D9D9D9;
   border-radius: 50%;
-  cursor: pointer;
   height: 10px;
   width: 10px;
 }

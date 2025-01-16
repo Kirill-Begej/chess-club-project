@@ -84,5 +84,5 @@
 @import url('../blocks/stages/__item/_amount-blocks/stage__item_amount-blocks_second.css');
 @import url('../blocks/stages/__item/_amount-blocks/stage__item_amount-blocks_only-one.css');
 @import url('../blocks/button/_type/button_type_right.css');
-@import url('../blocks/button/_not-active/button_not-active.css');
+@import url('../blocks/button/_disabled/button_disabled.css');
 @import url('../blocks/pagination/__item/_active/pagination__item_active.css');

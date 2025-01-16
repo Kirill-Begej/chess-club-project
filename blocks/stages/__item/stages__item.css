@@ -27,6 +27,8 @@
   height: 2.72vw;
   justify-content: center;
   left: 5%;
+  max-height: 42px;
+  max-width: 42px;
   position: absolute;
   top: 19px;
   width: 2.72vw;
