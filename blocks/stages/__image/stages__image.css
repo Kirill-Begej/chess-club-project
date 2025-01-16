@@ -9,7 +9,7 @@
 @media screen and (max-width: 767px) {
   .stages__image {
     bottom: 79%;
-    left: 20%;
+    left: 18%;
     max-width: 400px;
     right: auto;
     transform: rotate(-4deg);

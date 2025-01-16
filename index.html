@@ -12,19 +12,6 @@
   <link rel="stylesheet" href="./pages/index.css">
   <script type="module" src="./pages/index.js"></script>
   <title>Клуб четырех коней</title>
-  <style>
-    .members {
-      --slides: 6;
-      --current: 3;
-    }
-
-    @media screen and (max-width: 767px) {
-      .members {
-        --slides: 6;
-        --current: 1;
-      }
-    }
-  </style>
 </head>
 
 <body class="root">
@@ -139,8 +126,7 @@
         </div>
       </section>
 
-      <!-- <section class="members" style="--slides: 6; --current: 3;"> -->
-      <section class="members">
+      <section class="members" style="--slides: 6; --current: 1;">
         <h2 class="title members__title">Участники турнира</h2>
         <div class="members__container">
           <ul class="members__list">
@@ -196,9 +182,9 @@
               </svg>
             </button>
             <div class="pagination-slider__numbers">
-              <span class="pagination-slider__slide-number" id="slideNumber">3</span>
+              <span class="pagination-slider__slide-number"></span>
               <span class="pagination-slider__separator">/</span>
-              <span class="pagination-slider__number-slides">6</span>
+              <span class="pagination-slider__number-slides"></span>
             </div>
             <button class="button button_type_right" name="right" title="Пролистнуть вправо." aria-label="Пролистнуть вправо">
               <svg class="button__image">

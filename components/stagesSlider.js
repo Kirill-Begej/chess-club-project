@@ -2,22 +2,19 @@ const DEFAULTS = {
   transitionDuration: 100,
   containerSelector: '.stages__list',
   itemSelector: '.stages__item',
-  paginationItemSelector: '.pagination__item',
-  slidesAmountVar: '--slides',
-  currentSlideVar: '--current'
+  paginationItemSelector: '.pagination__item'
 };
 
-export class stageSlider {
-  constructor(element, controls) {
+export class StageSlider {
+  constructor(element, controls = []) {
     this._root = element;
     this._options = Object.assign({}, DEFAULTS);
+    this._container = this._root.querySelector(this._options.containerSelector);
     this._setControls(controls);
     this._reset();
   }
 
   _reset() {
-    this._container = this._root.querySelector(this._options.containerSelector);
-
     this._timer = null;
 
     setTimeout(() => {

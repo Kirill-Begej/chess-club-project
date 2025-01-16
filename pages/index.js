@@ -1,15 +1,29 @@
-import { stageSlider } from '../components/stagesSlider.js';
+import { StageSlider } from '../components/StagesSlider.js';
+import { MembersSlider } from '../components/MembersSlider.js';
 
 const stagesElement = document.querySelector('.stages');
+const membersElement = document.querySelector('.members');
 
-new stageSlider(
+new StageSlider(
   stagesElement,
   [
-    stageSlider.actionLeft(
+    StageSlider.actionLeft(
       stagesElement.querySelector('.button[name=left]')
     ),
-    stageSlider.actionRight(
+    StageSlider.actionRight(
       stagesElement.querySelector('.button[name=right]')
+    )
+  ]
+);
+
+new MembersSlider(
+  membersElement,
+  [
+    MembersSlider.actionLeft(
+      membersElement.querySelector('.button[name=left]')
+    ),
+    MembersSlider.actionRight(
+      membersElement.querySelector('.button[name=right]')
     )
   ]
 );
