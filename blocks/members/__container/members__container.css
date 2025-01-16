@@ -1,8 +1,12 @@
 .members__container {
   grid-column: 1 / 3;
   grid-row: 2 / 3;
-  height: 475px;
   overflow: hidden;
-  position: relative;
   width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .members__container {
+    margin-bottom: 40px;
+  }
 }

@@ -14,7 +14,7 @@
     gap: 0;
     grid-template-columns: repeat(var(--slides), 1fr);
     margin-left: calc((var(--current) - 1) * -100%);
-    transition: margin-left 0.3s ease-in-out;
+    transition: margin-left .3s ease-in-out;
     width: calc(var(--slides) * 100%);
   }
 }

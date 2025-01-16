@@ -2,9 +2,19 @@
   color: var(--primary-color);
   display: grid;
   font: var(--secondary-font-size-l) var(--secondary-font-regular);
-  grid-template-columns: 87.65% 12.35%;
+  grid-template-columns: 80% 20%;
   line-height: var(--line-height-m);
   margin-bottom: 127px;
   padding-top: 104px;
   row-gap: 56px;
+}
+
+@media screen and (max-width: 767px) {
+  .members {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+    padding-top: 63px;
+    row-gap: 0;
+  }
 }

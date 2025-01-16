@@ -1,11 +1,16 @@
 .members__list {
   display: grid;
-  gap: 20px;
-  grid-template-columns: repeat(3, calc((100% - 40px) / 3));
   list-style: none;
   margin: 0;
   padding: 0;
-  position: absolute;
   inset: 0px;
-  transition: all .3s ease-out;
+  transition: margin-left .3s ease-in-out;
+  grid-template-columns: repeat(calc(var(--slides) * 3), 1fr);
+  width: calc(var(--slides) * 100%);
+}
+
+@media screen and (max-width: 767px) {
+  .members__list {
+    grid-template-columns: repeat(var(--slides), 1fr);
+  }
 }

@@ -3,6 +3,6 @@
   color: rgba(49, 49, 49, .6);
   display: flex;
   font: var(--secondary-font-size-s) var(--secondary-font-regular);
-  gap: 16px;
+  gap: 12px;
   line-height: var(--line-height-m);
 }
