@@ -1,0 +1,10 @@
+.members__image-wrap {
+  max-width: 320px;
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .members__image-wrap  {
+    max-width: 244px;
+  }
+}

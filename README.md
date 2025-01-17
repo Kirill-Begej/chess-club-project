@@ -13,3 +13,6 @@ ___
 ## Ссылка на GitHub
 [Ссылка на GitHub](https://github.com/Kirill-Begej/chess-club-project)
 ___
+## Деплой проекта
+[Деплой проекта](https://chess-club-project.vercel.app/)
+___

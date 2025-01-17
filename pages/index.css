@@ -52,6 +52,8 @@
 @import url('../blocks/members/__container/members__container.css');
 @import url('../blocks/members/__list/members__list.css');
 @import url('../blocks/members/__item/members__item.css');
+@import url('../blocks/members/__image-wrap/members__image-wrap.css');
+@import url('../blocks/members/__image-container/members__image-container.css');
 @import url('../blocks/members/__image/members__image.css');
 @import url('../blocks/members/__subtitle/members__subtitle.css');
 @import url('../blocks/members/__text/members__text.css');

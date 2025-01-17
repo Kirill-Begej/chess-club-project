@@ -1,12 +1,5 @@
 .members__image {
-  display: block;
-  margin-bottom: 28px;
-  max-width: 320px;
+  inset: 0;
+  position: absolute;
   width: 100%;
-}
-
-@media screen and (max-width: 767px) {
-  .members__image  {
-    max-width: 244px;
-  }
 }
